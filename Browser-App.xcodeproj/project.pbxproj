@@ -14,6 +14,11 @@
 		7F4F23DD20979573004DBAE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F4F23DB20979573004DBAE9 /* LaunchScreen.storyboard */; };
 		7F4F23E820979573004DBAE9 /* Browser_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4F23E720979573004DBAE9 /* Browser_AppTests.swift */; };
 		7F4F23F320979574004DBAE9 /* Browser_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4F23F220979574004DBAE9 /* Browser_AppUITests.swift */; };
+		7F4F24012097964A004DBAE9 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4F24002097964A004DBAE9 /* WebViewController.swift */; };
+		7F4F240320979691004DBAE9 /* MyDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4F240220979691004DBAE9 /* MyDB.swift */; };
+		7F4F2405209796C9004DBAE9 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4F2404209796C9004DBAE9 /* Model.swift */; };
+		7F4F2407209796EB004DBAE9 /* WebsiteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4F2406209796EB004DBAE9 /* WebsiteTableViewCell.swift */; };
+		7F4F24092097979C004DBAE9 /* Browser.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 7F4F24082097979C004DBAE9 /* Browser.xcdatamodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		7F4F23EE20979574004DBAE9 /* Browser-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Browser-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F4F23F220979574004DBAE9 /* Browser_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Browser_AppUITests.swift; sourceTree = "<group>"; };
 		7F4F23F420979574004DBAE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F4F24002097964A004DBAE9 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		7F4F240220979691004DBAE9 /* MyDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDB.swift; sourceTree = "<group>"; };
+		7F4F2404209796C9004DBAE9 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		7F4F2406209796EB004DBAE9 /* WebsiteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteTableViewCell.swift; sourceTree = "<group>"; };
+		7F4F24082097979C004DBAE9 /* Browser.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Browser.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,11 @@
 				7F4F23D920979573004DBAE9 /* Assets.xcassets */,
 				7F4F23DB20979573004DBAE9 /* LaunchScreen.storyboard */,
 				7F4F23DE20979573004DBAE9 /* Info.plist */,
+				7F4F24082097979C004DBAE9 /* Browser.xcdatamodel */,
+				7F4F24002097964A004DBAE9 /* WebViewController.swift */,
+				7F4F240220979691004DBAE9 /* MyDB.swift */,
+				7F4F2404209796C9004DBAE9 /* Model.swift */,
+				7F4F2406209796EB004DBAE9 /* WebsiteTableViewCell.swift */,
 			);
 			path = "Browser-App";
 			sourceTree = "<group>";
@@ -259,8 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F4F2405209796C9004DBAE9 /* Model.swift in Sources */,
 				7F4F23D520979573004DBAE9 /* ViewController.swift in Sources */,
+				7F4F240320979691004DBAE9 /* MyDB.swift in Sources */,
+				7F4F24012097964A004DBAE9 /* WebViewController.swift in Sources */,
+				7F4F24092097979C004DBAE9 /* Browser.xcdatamodel in Sources */,
 				7F4F23D320979573004DBAE9 /* AppDelegate.swift in Sources */,
+				7F4F2407209796EB004DBAE9 /* WebsiteTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
